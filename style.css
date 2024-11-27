@@ -1,6 +1,7 @@
 body{
     margin: 26px;
     background-color: rgb(95, 80, 80);
+    justify-items: center;
 }
 
 @font-face {
@@ -28,7 +29,7 @@ body{
 
 .tempo{
     position: relative;
-    margin-top: 120px;
+    margin-top: 45px;
     display: grid;
     grid-template-columns: repeat(3, 103.73px);
     grid-template-rows: repeat(2, 65px);
@@ -59,6 +60,7 @@ body{
 }
 
 .texto{
+    width: 311.2px;
     color: rgb(42, 6, 6);
     text-align:justify;
     word-break:break-all;
