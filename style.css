@@ -1,0 +1,67 @@
+body{
+    margin: 26px;
+    background-color: rgb(95, 80, 80);
+}
+
+@font-face {
+    font-family: 'Angelia';
+    src: url(Angelia.ttf);
+}
+
+.nomes{
+    text-align: center;
+    color: rgb(74, 7, 7);
+    font-size: 53px;
+    font-family: angelia;
+}
+
+.conometro{
+    color: rgb(74, 7, 7);
+    margin: 0;
+    font-size: 30px;
+}
+
+.fundoConometro{
+    width: 50px;
+    height: 50px;
+}
+
+.tempo{
+    position: relative;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 103.73px);
+    grid-template-rows: repeat(2, 65px);
+    text-align: center;
+    color: rgb(52, 0, 0);
+    font-size: 15px;
+    justify-items: center;
+}
+
+.fotoJuntos{
+    width: 311.2px;
+    height: 311.2px;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+.moldura{
+    background-color: transparent;
+    width: 320px;
+}
+
+.textinho-titulo{
+    margin-top: 2.5rem;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(74, 7, 7);
+    font-family: angelia;
+}
+
+.texto{
+    color: rgb(42, 6, 6);
+    text-align:justify;
+    word-break:break-all;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
